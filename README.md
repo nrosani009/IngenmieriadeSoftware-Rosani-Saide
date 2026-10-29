@@ -10,6 +10,10 @@ Utilizar un entorno virtual es fundamental para mantener las dependencias del pr
 ```bash
 python -m venv .venv
 ```
+o bien
+```bash
+py -m venv .venv
+```
 
 **Activar el entorno virtual (Windows PowerShell):**
 ```powershell
@@ -30,6 +34,7 @@ pip install -r requirements.txt
 Levanta el servidor local utilizando Uvicorn. El flag `--reload` indica que el servidor se reiniciará automáticamente cada vez que guardes cambios en el código, lo cual es ideal para la etapa de desarrollo.
 
 ```bash
+cd trotamundos_prototipo
 uvicorn app.main:app --reload
 ```
 
