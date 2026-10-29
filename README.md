@@ -26,6 +26,7 @@ py -m venv .venv
 Una vez activado el entorno (deberías ver `(.venv)` al inicio de tu línea de comandos), instala los paquetes requeridos que están listados en el archivo de configuración:
 
 ```bash
+cd trotamundos_prototipo
 pip install -r requirements.txt
 ```
 
